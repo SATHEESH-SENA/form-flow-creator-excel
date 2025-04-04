@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { 
@@ -313,7 +312,7 @@ const FormDetail = () => {
                 Export Data
               </Button>
               <Button 
-                onClick={() => setTab('preview')} 
+                onClick={() => setActiveTab('preview')} 
                 size="sm"
                 className="flex items-center"
               >
