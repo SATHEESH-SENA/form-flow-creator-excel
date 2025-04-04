@@ -14,6 +14,7 @@ import FormDetail from "./pages/FormDetail";
 import Settings from "./pages/Settings";
 import PublicForm from "./pages/PublicForm";
 import NotFound from "./pages/NotFound";
+import GstRegistrationForm from "./pages/GstRegistrationForm";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +37,7 @@ const App = () => (
               <Route path="forms/:id" element={<FormDetail />} />
               <Route path="forms/:id/edit" element={<FormBuilder />} />
               <Route path="settings" element={<Settings />} />
+              <Route path="gst-registration" element={<GstRegistrationForm />} />
             </Route>
             
             {/* Catch-all route */}
